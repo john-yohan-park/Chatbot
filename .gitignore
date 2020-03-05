@@ -1,0 +1,10 @@
+# don't push to github...
+
+# node_modules directory
+node_modules
+
+# mac file config
+.DS_Store
+
+# stored passwords
+.env
