@@ -6,5 +6,5 @@ node_modules
 # mac file config
 .DS_Store
 
-# stored passwords
+# stored keys
 .env
