@@ -13,8 +13,8 @@ function CardComponent(props) {
                     src={props.cardInfo.fields.image.stringValue} />
             }
             actions={[
-                <a target="_blank" rel="noopener noreferrer" href={props.cardInfo.fields.link.stringValue}>
-                    <Icon type="ellipsis" key="ellipsis" />
+                <a target='_blank' rel='noopener noreferrer' href={props.cardInfo.fields.link.stringValue}>
+                    <Icon type='ellipsis' key='ellipsis' />
                 </a>
             ]}
         >

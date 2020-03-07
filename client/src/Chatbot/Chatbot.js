@@ -4,17 +4,17 @@ import {useDispatch, useSelector} from 'react-redux'
 import {saveMessage} from '../_actions/message_actions'
 import Message from './Sections/Message'
 import {List, Icon, Avatar} from 'antd'
-import Card from "./Sections/Card"
+import Card from './Sections/Card'
 
-function Chatbot() {
+function ChatCora() {
     const dispatch = useDispatch()
     const messagesFromRedux = useSelector(state => state.message.messages)
 
-    useEffect(() => {eventQuery('welcomeToMyWebsite')}, [])
+    useEffect(() => {eventQuery('welcomeToMyWebsite')}, []) // greet user
 
     const textQuery = async (text) => {   
         let conversation = {
-            who: 'user',
+            who: 'User',
             content: {text: {text: text}}
         }
         dispatch(saveMessage(conversation))
@@ -22,12 +22,12 @@ function Chatbot() {
         try {
             const response = await Axios.post('/api/dialogflow/textQuery', textQueryVariables)
             for (let content of response.data.fulfillmentMessages) {
-                conversation = {who: 'bot',content: content}
+                conversation = {who: 'Cora',content: content}
                 dispatch(saveMessage(conversation))
             }// for
         }// try
         catch (error) {
-            conversation = {who: 'bot', content: {text: {text: " Error occured"}}}
+            conversation = {who: 'Cora', content: {text: {text: ' Error occured'}}}
             dispatch(saveMessage(conversation))
         }// catch
     }// text query
@@ -37,21 +37,21 @@ function Chatbot() {
         try {
             const response = await Axios.post('/api/dialogflow/eventQuery', eventQueryVariables)
             for (let content of response.data.fulfillmentMessages) {
-                let conversation = {who: 'bot',content: content}
+                let conversation = {who:'Cora', content: content}
                 dispatch(saveMessage(conversation))
             }// for
         }// try
         catch (error) {
-            let conversation = {who: 'bot',content: {text: {text: " Error occured :("}}}
+            let conversation = {who:'Cora',content: {text: {text: 'Error occured :('}}}
             dispatch(saveMessage(conversation))
         }// catch
     }// event query
 
     const keyPressHanlder = (e) => {
-        if (e.key === "Enter") {
+        if (e.key === 'Enter') {
             if (!e.target.value) {return alert('you need to type somthing first')}
             textQuery(e.target.value)
-            e.target.value = ""
+            e.target.value = ''
         }// if
     }// key press handler
 
@@ -65,7 +65,7 @@ function Chatbot() {
             return <Message key={i} who={message.who} text={message.content.text.text} />
         }// if
         else if (message.content && message.content.payload.fields.card) {
-            const AvatarSrc = message.who === 'bot' ? <Icon type="robot" /> : <Icon type="smile" />
+            const AvatarSrc = message.who==='Cora' ? <Icon type='robot' /> : <Icon type='smile' />
             return <div>
                 <List.Item style={{ padding: '1rem' }}>
                     <List.Item.Meta
@@ -101,12 +101,12 @@ function Chatbot() {
                     margin: 0, width: '100%', height: 50,
                     borderRadius: '4px', padding: '5px', fontSize: '1rem'
                 }}
-                placeholder="Send a message..."
+                placeholder='Send a message...'
                 onKeyPress={keyPressHanlder}
-                type="text"
+                type='text'
             />
         </div>
     )// return
-}// chat bot
+}// chat Cora
 
-export default Chatbot
+export default ChatCora
