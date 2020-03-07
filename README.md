@@ -3,8 +3,8 @@
 Fullstack Web App using Mongo, Express, React, Node, and Dialogflow
 
 ## Omitted Files ##
-`.env` file with my MongoDB URI and Google Cloud Project ID have been omitted for security reasons.
-Also missing from the root directory is my Google Cloud Service Account Access JSON file.
+1. `.env` file with my MongoDB URI and Google Cloud Project ID
+2. My Google Cloud Service Account Access JSON file.
 
 ## How to Get These Files ##
 You can obtain your MongoDB URI by signing up for a free MongoDB account at https://www.mongodb.com/cloud/atlas
