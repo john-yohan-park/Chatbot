@@ -11,5 +11,5 @@ Fullstack Web App using Mongo, Express, React, Node, and Dialogflow
 2. Obtain your Google Cloud Service Account Access JSON file by signing up for a free Google Cloud account at https://cloud.google.com
 3. Gain access to your Dialogflow API by going to https://dialogflow.com/
 
-## How to Run the Chatbot Application ##
+## How to Run ##
 Once you have these 2 files, all you have to do is run the command `npm run start` from the root directory to start the Chabot application.
