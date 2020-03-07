@@ -2,6 +2,7 @@
 Fullstack Web App using Mongo, Express, React, Node, and Dialogflow<br>
 
 <img src="client/src/logo.jpg" width="100" height="100">
+
 ## Excluded Files ##
 1. `.env` file with Mongo DB URI and Google Cloud Project ID
 2. Google Cloud Service Account Access JSON file
