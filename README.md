@@ -1,4 +1,4 @@
-# Cora <img src="client/src/logo.jpg" width="40" height="40"> #
+# Cora <img src="client/src/logo.jpg" width="auto" height="auto"> #
 
 Fullstack Web App using Mongo, Express, React, Node, and Dialogflow
 
