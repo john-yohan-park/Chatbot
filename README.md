@@ -13,7 +13,7 @@ Fullstack Web App using Mongo, Express, React, Node, and Dialogflow
 
 ## How to Run ##
 Once you've obtained these files,
-1. Create `.env` file and copy & paste your Mongo DB URI and Google Cloud Project ID
-2. Place your Google Cloud Service Account Access JSON file in the `Chatbot` directory
+1. Create `.env` file and copy & paste Mongo DB URI and Google Cloud Project ID
+2. Place Google Cloud Service Account Access JSON file in the `Chatbot` directory
 3. From this directory, run `npm install` to install dependencies
 4. `npm run start` to deploy Chabot application
