@@ -3,7 +3,7 @@
 Fullstack Web App using Mongo, Express, React, Node, and Dialogflow
 
 ## Omitted Files ##
-1. `.env` file with my MongoDB URI and Google Cloud Project ID
+1. `.env` file with my Mongo DB URI and Google Cloud Project ID
 2. My Google Cloud Service Account Access JSON file.
 
 ## How to Get These Files ##
