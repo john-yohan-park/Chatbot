@@ -18,3 +18,5 @@ Once you've obtained these files,
 2. Place Google Cloud Service Account Access JSON file in the `Chatbot` directory
 3. From this directory, run `npm install` to install dependencies
 4. `npm run start` to deploy Chabot application
+
+<img src="Screenshot.jpg" width="200">
