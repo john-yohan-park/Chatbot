@@ -1,6 +1,6 @@
 # Chatbot #
 
-![](client/src/logo.jpg)
+![](client/src/logo.jpg 100x100)
 
 Fullstack Web App using Mongo, Express, React, Node, and Dialogflow
 
