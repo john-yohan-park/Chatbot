@@ -1,5 +1,5 @@
 # Cora #
-Fullstack Web App using Mongo, Express, React, Node, and Dialogflow<br>
+### Fullstack Web App using Mongo, Express, React, Node, and Dialogflow ###
 
 <img src="client/src/logo.jpg" width="100" height="100">
 
