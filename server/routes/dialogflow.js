@@ -9,8 +9,8 @@ const dialogflow = require('dialogflow')
 
 require('dotenv/config')                     // import keys
 const projectId = process.env.PROJECT_ID
-const sessionId = process.env.SESSION_ID
-const language  = process.env.LANGUAGE_CODE
+const sessionId = 'temporary_session_id'
+const language  = 'en-US'
 
 // Create a new session
 const sessionClient = new dialogflow.SessionsClient()
