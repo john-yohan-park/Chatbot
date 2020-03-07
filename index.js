@@ -12,9 +12,6 @@ mongoose.connect(                    // connect to database
 // routes
 const dialogflowRoute = require('./server/routes/dialogflow')
 
-// const cors = require('cors')
-// app.use(cors())
-
 // middleware
 app.use(express.urlencoded({extended: true})) // process incoming
 app.use(express.json())                       // req as json

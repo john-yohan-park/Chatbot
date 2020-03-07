@@ -7,7 +7,7 @@
   "scripts": {
     "backend": "GOOGLE_APPLICATION_CREDENTIALS='./foodle-268820-3a194657f5bf.json' nodemon index.js",
     "frontend": "npm run front --prefix client",
-    "dev": "concurrently \"npm run backend\" \"npm run start --prefix client\""
+    "start": "concurrently \"npm run backend\" \"npm run start --prefix client\""
   },
   "author": "John Park",
   "license": "ISC",
