@@ -1,4 +1,4 @@
-# Chatbot <img src="client/src/logo.jpg" width="100" height="100"> #
+# Cora <img src="client/src/logo.jpg" width="40" height="40"> #
 
 Fullstack Web App using Mongo, Express, React, Node, and Dialogflow
 
