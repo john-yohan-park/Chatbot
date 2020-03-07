@@ -8,7 +8,7 @@ export default function (state = {messages:[]}, action) {
             return {
                 ...state,
                 messages: state.messages.concat(action.payload)
-            }
+            }// return
         default:
             return state
     }

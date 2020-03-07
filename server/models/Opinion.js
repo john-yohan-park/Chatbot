@@ -5,6 +5,6 @@ const OpinionSchema = mongoose.Schema({
     opinion     : String,
     email       : String,
     registerDate: Date
-})
+})// opinion schema
 
 module.exports = mongoose.model('Opinion', OpinionSchema)

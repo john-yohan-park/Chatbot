@@ -5,7 +5,9 @@
   "main": "index.js",
   "repository": "TBA",
   "scripts": {
-    "start": "nodemon index.js"
+    "backend": "GOOGLE_APPLICATION_CREDENTIALS='./foodle-268820-3a194657f5bf.json' nodemon index.js",
+    "frontend": "npm run front --prefix client",
+    "dev": "concurrently \"npm run backend\" \"npm run start --prefix client\""
   },
   "author": "John Park",
   "license": "ISC",
@@ -18,6 +20,7 @@
     "mongoose": "^5.9.3"
   },
   "devDependencies": {
+    "concurrently": "^5.1.0",
     "nodemon": "^2.0.2"
   }
 }
