@@ -4,8 +4,7 @@
   word-wrap: break-word;
 }
 
-html,
-body {
+html, body {
   max-height: 800px;
 }
 

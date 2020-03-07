@@ -6,7 +6,7 @@ import Message from './Sections/Message'
 import {List, Icon, Avatar} from 'antd'
 import Card from './Sections/Card'
 
-function ChatCora() {
+function Chatbot() {
     const dispatch = useDispatch()
     const messagesFromRedux = useSelector(state => state.message.messages)
 
@@ -79,7 +79,6 @@ function ChatCora() {
     }// render one msg
 
     const renderMessage = (returnedMessages) => {
-
         if (returnedMessages) {
             return returnedMessages.map((message, i) => {
                 return renderOneMessage(message, i)
@@ -109,4 +108,4 @@ function ChatCora() {
     )// return
 }// chat Cora
 
-export default ChatCora
+export default Chatbot

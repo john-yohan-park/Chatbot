@@ -1,7 +1,7 @@
 import React from 'react'
 import Image from './Chatbot/Sections/Image'
 import logo from './logo.jpg'
-import {Typography, Icon} from 'antd'
+import {Typography} from 'antd'
 import Chatbot from './Chatbot/Chatbot'
 const {Title} = Typography
 

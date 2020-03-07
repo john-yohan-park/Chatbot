@@ -1,5 +1,5 @@
 import React from 'react'
-import {List, Icon, Avatar} from 'antd'
+import {List,Icon,Avatar} from 'antd'
 import Image from './Image'
 import logo from '../../logo.jpg'
 

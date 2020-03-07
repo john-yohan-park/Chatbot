@@ -1,6 +1,4 @@
-import {
-    SAVE_MESSAGE,
-} from '../_actions/types'
+import {SAVE_MESSAGE} from '../_actions/types'
 
 export default function (state = {messages:[]}, action) {
     switch (action.type) {
@@ -9,7 +7,6 @@ export default function (state = {messages:[]}, action) {
                 ...state,
                 messages: state.messages.concat(action.payload)
             }// return
-        default:
-            return state
+        default: return state
     }
 }
