@@ -14,5 +14,5 @@ Fullstack Web App using Mongo, Express, React, Node, and Dialogflow
 ## How to Run ##
 Once you have these files,
 1. `cd` into `Chatbot` directory
-1. `npm install` to install the dependencies
-2. `npm run start` to deploy the Chabot application
+2. `npm install` to install the dependencies
+3. `npm run start` to deploy the Chabot application
