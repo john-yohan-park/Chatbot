@@ -19,6 +19,6 @@ Once you've obtained these files,
 3. From this directory, run `npm install` to install dependencies
 4. `npm run start` to deploy Chabot application
 
-### Screenshot ###
+## Screenshot ##
 
 <img src="Screenshot.jpg" width=60%>
