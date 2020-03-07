@@ -7,7 +7,7 @@ Fullstack Web App using Mongo, Express, React, Node, and Dialogflow<br>
 1. `.env` file with Mongo DB URI and Google Cloud Project ID
 2. Google Cloud Service Account Access JSON file
 
-## How to Obtain Excluded Files ##
+## How to Obtain Credentials ##
 1. Obtain your MongoDB URI by signing up for a free MongoDB account at mongodb.com/cloud/atlas
 2. Obtain your Google Cloud Service Account Access file by signing up for a free Google Cloud account at cloud.google.com
 3. Gain access to your Dialogflow API by visiting dialogflow.com
